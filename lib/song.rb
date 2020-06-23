@@ -23,8 +23,8 @@ end
 
 def self.genres
   all_genres = @@genres.uniq
-  
-  
+
+
 end
 
 end

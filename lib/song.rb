@@ -22,7 +22,7 @@ def self.artists
 end
 
 def self.genres
-  all_genres = @@genres
+@@genres.uniq
 end
 
 def self.genre_count

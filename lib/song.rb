@@ -23,7 +23,12 @@ end
 
 def self.genres
   all_genres = @@genres
-
 end
+
+def self.genre_count
+new_count = {}
+@@genres.each do |genre| new_count << :genre "#{@name.uniq.size}"
+end
+
 
 end

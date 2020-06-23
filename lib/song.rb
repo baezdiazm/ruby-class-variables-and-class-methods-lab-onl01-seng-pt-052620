@@ -23,7 +23,7 @@ end
 
 def self.genres
   all_genres = {}
-  all_genres << :@@genres.uniq "#{self.count}"
+  all_genres << :@@genres.uniq
 
 end
 

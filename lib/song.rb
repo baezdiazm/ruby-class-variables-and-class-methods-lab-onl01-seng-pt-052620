@@ -26,10 +26,9 @@ def self.genres
 end
 
 def self.genre_count
-new_count = {}
-@@genres.each do |genre| new_count << (:genre, @name.uniq.size)
-end
-new_count
+unique = @@genres.uniq
+
+
 end
 
 

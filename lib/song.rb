@@ -28,7 +28,7 @@ end
 def self.genre_count
 unique = @@genres.uniq
 gencout = {:@@genres => unique.count}
-gencount[:genres] = unique.count
+#gencount[:genres] = unique.count
 gencount
 end
 

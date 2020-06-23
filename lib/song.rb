@@ -21,5 +21,10 @@ def self.artists
   @@artists
 end
 
+def self.genres
+  all_genres = @@genres.uniq
+  
+  
+end
 
 end
